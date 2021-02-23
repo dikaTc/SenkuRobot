@@ -51,9 +51,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-group management bot ka ni a.
-You can ka thil tih theih te i hriat duh chuan heihi type rawh /help.
+Hi {}, ka hming chu {}! 
+group management bot ka ni.
+ka thil tih theih te i hriat duh chuan heihi type rawh /help.
 """
 
 HELP_STRINGS = """
@@ -212,7 +212,7 @@ def start(update: Update, context: CallbackContext):
                             url="https://t.me/puituflynn?start=help"),
                          InlineKeyboardButton(
                             text=" ⚡️ Get Started ",
-                             url="https://t.me/puituflynn/4")        
+                             url="https://t.me/puituflynn/")        
                        
                      ],
                      [
