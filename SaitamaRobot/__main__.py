@@ -78,7 +78,7 @@ And the following:
 
 SAITAMA_IMG = "https://images2.alphacoders.com/879/879450.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
+DONATE_STRING = """Join [Telegram channel](t.me/androidusersmizo) & [Telegram group](t.me/puituflynn)."""
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
@@ -199,20 +199,19 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Summon Me ",
-                            url="t.me/{}?startgroup=true".format(
-                                context.bot.username)),
+                            text="  Support group  ",
+                            url="https://t.me/puituflynn"), 
                          InlineKeyboardButton(
-                             text=" 🔔 Updates ",
+                             text=" Developer ",
                              url="https://t.me/puituflynn")
                      ],
                      [
                         InlineKeyboardButton(
-                            text=" ✨ Help ",
-                            url="https://t.me/puituflynn?start=help"),
+                            text=" Add me to your group ",
+                            url="https://m.youtube.com/channel/UCRVFdrBy_I-_hNL3vgONbuQ"),
                          InlineKeyboardButton(
-                            text=" ⚡️ Get Started ",
-                             url="https://t.me/puituflynn/")        
+                            text=" ⚡️ Developer ",
+                             url="https://t.me/Didiktea")    
                        
                      ],
                      [
